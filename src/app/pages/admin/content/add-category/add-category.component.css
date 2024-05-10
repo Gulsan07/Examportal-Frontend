@@ -1,0 +1,49 @@
+/* Add this CSS to your component's stylesheet (e.g., styles.css or your component-specific stylesheet) */
+.example-card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    border-radius: 4px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .like-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .like-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Add these styles to your CSS file */
+/* Style for the button container */
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end; /* Adjust alignment as needed */
+}
+
+/* Style for the button */
+.like-button {
+  width: 100%; /* Make the button take up the full width */
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 10px; /* Add padding for better appearance */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0; /* Adjust margin as needed */
+  cursor: pointer;
+  border-radius: 4px; /* Add rounded corners */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Change button color on hover */
+.like-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

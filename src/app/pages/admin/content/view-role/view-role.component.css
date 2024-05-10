@@ -1,0 +1,66 @@
+.custom-card {
+    background-color: #f8f9fa;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .nested-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    background-color: green;
+  }
+  
+  .card-content {
+    color: #333;
+  }
+  
+  .role-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .info-value {
+    color: #007bff;
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-8 {
+      margin: 20px;
+    }
+  }
+
+ /* Add these styles to your component's CSS file or style section */
+
+.mat-card-actions button {
+    background-color: #dc3545; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mat-card-actions button:hover {
+    background-color: #bd2130; /* Set your desired hover background color */
+  }
+  

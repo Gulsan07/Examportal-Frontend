@@ -1,0 +1,51 @@
+/* Add this CSS to your styles.css or styles.scss file */
+
+.card-container {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 2px;
+  color: #333;
+}
+
+.card-fixed-size {
+  width: 100%;
+}
+
+.card-fixed-size mat-card-actions {
+  display: flex;
+  
+}
+
+.card-fixed-size button {
+  padding: 8px 16px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.danger {
+  background-color: #ff5252;
+  color: #fff;
+  border: none;
+}
+
+.secondary {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  margin-left: 0px;
+}
+
+.mat-paginator {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/* Optional: Add hover effects to buttons */
+.card-fixed-size button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
